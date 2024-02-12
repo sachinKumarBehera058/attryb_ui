@@ -73,7 +73,7 @@ const NavBar = ({ addTweet }) => {
               <AlertPopupHeader>Write your tweet</AlertPopupHeader>
               <AlertPopupBody>
                 <FieldGroup name='sample-text-field'>
-                  <FieldLabel name='nnnn' >
+                  <FieldLabel name='nnnn'>
                     Enter Tweet
                   </FieldLabel>
                   <InputField

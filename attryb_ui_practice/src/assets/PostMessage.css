@@ -16,7 +16,7 @@
 
 
 .tweet-box h2 {
-    font-size: 24px;
+    font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 15px;
     color: #3d1ba4;
@@ -26,15 +26,11 @@
     margin-top: 10px;
 }
 
-/* .tweet-msg div {
-    margin: 0px 20px;
-} */
-
 
 .msg-card {
     background-color: #e9ebf2;
-    box-shadow: 0 0 5px 0 rgb(142, 141, 141);
-    height: 60px;
+    /* box-shadow: 0 0 5px 0 rgb(142, 141, 141); */
+    /* height: 60px; */
     display: flex;
     margin: 20px;
     padding: 8px;
@@ -64,7 +60,7 @@
 
 @media only screen and (max-width: 768px) {
     .tweet-box{
-        width: 70%;
+        width: 60%;
     }
 }
 
