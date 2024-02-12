@@ -1,11 +1,9 @@
 import React from 'react';
 import './PostMessage.css';
-import SideBar from './Sidebar';
 
 const Postmessage = ({ tweets }) => {
   return (
     <div className='bada-daba'>
-      <SideBar/>
       <div className='tweet-box'>
         <h2>Recent Tweets</h2><hr />
         <div className='tweet-msg'>
