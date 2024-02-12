@@ -1,5 +1,6 @@
 .bada-daba {
     display: flex;
+    justify-content: space-between;
 }
 
 .tweet-box {
@@ -10,13 +11,15 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     margin-top: 10px;
+    /* border: 2px solid green; */
 }
 
 
 .tweet-box h2 {
     font-size: 24px;
+    font-weight: 500;
     margin-bottom: 15px;
-    color: #1DA1F2;
+    color: #3d1ba4;
 }
 
 .tweet-msg {
@@ -59,3 +62,18 @@
     color: rgb(66, 67, 68);
 }
 
+@media only screen and (max-width: 768px) {
+    .tweet-box{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .tweet-box{
+        width: 100%;
+    }
+
+    .bada-daba{
+        flex-direction: column;
+    }
+}

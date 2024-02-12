@@ -1,9 +1,11 @@
 import React from 'react';
 import './PostMessage.css';
+import Profile from '../assets/Profile';
 
 const Postmessage = ({ tweets }) => {
   return (
     <div className='bada-daba'>
+      <Profile/>
       <div className='tweet-box'>
         <h2>Recent Tweets</h2><hr />
         <div className='tweet-msg'>
