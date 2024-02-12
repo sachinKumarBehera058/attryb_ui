@@ -1,0 +1,61 @@
+.bada-daba {
+    display: flex;
+}
+
+.tweet-box {
+    width: 75%;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+
+.tweet-box h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #1DA1F2;
+}
+
+.tweet-msg {
+    margin-top: 10px;
+}
+
+/* .tweet-msg div {
+    margin: 0px 20px;
+} */
+
+
+.msg-card {
+    background-color: #e9ebf2;
+    box-shadow: 0 0 5px 0 rgb(142, 141, 141);
+    height: 60px;
+    display: flex;
+    margin: 20px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.msg-card img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.pmg {
+    margin-left: 15px;
+}
+
+.post-msg {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.time {
+    font-size: 12px;
+    color: rgb(66, 67, 68);
+}
+
